@@ -26,3 +26,10 @@ Caso o PIP não esteja instalado você pode instalar através do comando abaixo:
 
 <code>curl:https://bootstrap.pypa.io/get-pip.py -o get-pip.py</code>
 
+<h2 align="left">Instalaçao do Django</h2>
+
+Após a instalação do Python e o do Pacote PIP use o comando abaixo para a instalação do Django. Em seguida instalei a VENV. A VEN é um ambiente virtual onde você pode administrar diversos ambientes no python de forma separada. 
+
+<code>pip install django</code> 
+
+<code>pip install virtualenv</code>
