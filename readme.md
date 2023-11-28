@@ -23,3 +23,7 @@ Após a instalação use o comando abaixo para consultar a versão instalada do 
 
 <h2 align="left">Instalação dos Pacotes PIP</h2>
 
+Caso o PIP não esteja instalado você pode instalar através do comando abaixo: 
+
+<code>curl:https://bootstrap.pypa.io/get-pip.py -o get-pip.py</code>
+
