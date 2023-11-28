@@ -30,8 +30,6 @@ Após a instalação use o comando abaixo para consultar a versão instalada do 
 
 <code>curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py<code>
 
-</p>
-
 <h3 align="left">Instalação do Django e VENV</h3>
 
 ---
