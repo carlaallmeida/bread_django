@@ -23,17 +23,16 @@ Após a instalação use o comando abaixo para consultar a versão instalada do 
 
 <code>python –version</code></p>
 
-<h3 align="left">Instalação dos Pacotes do PIP</h3>
+<h2 align="left">Instalação dos Pacotes do PIP</h2>
 
 ---
 <p>Caso o PIP não esteja instalado você pode instalar inserindo o comando abaixo:
 
 <code>curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py<code>
 
-<h3 align="left">Instalação do Django e VENV</h3>
+<h2 align="left">Instalação do Django e VENV</h2>
 
 ---
-
 <p> Após a instalação do python e do pacote PIP siga o comando abaixo  para fazer a instalação do django: 
 
  <code>pip install Django</code>
