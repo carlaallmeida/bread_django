@@ -11,9 +11,8 @@
         
  <h1 align="left">Pré-requisitos</h1>
 
-<h2 align="left">Instalação do Python</h2> 
+<h1 align="left">Instalação do Python</h1> 
 
----
 Para fazer a instalação do Python insira o código abaixo no seu terminal: 
 
 <code>pip install python</code>
@@ -22,15 +21,17 @@ Após a instalação use o comando abaixo para consultar a versão instalada do 
 
 <code>python –version</code></p>
 
+
 <h2 align="left">Instalação dos Pacotes do PIP</h2>
 
 Caso o PIP não esteja instalado você pode instalar inserindo o comando abaixo: 
 
-<code>curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py<code>
+<code>curl:https://bootstrap.pypa.io/get-pip.py -o get-pip.py<code>
 
-<h2 align="left">Instalação do Django e VENV</h2>
 
-<p> Após a instalação do python e do pacote PIP siga o comando abaixo  para fazer a instalação do django:</p>
+<h1 align="left">Instalação do Django e VENV</h1>
+
+Após a instalação do python e do pacote PIP siga o comando abaixo  para fazer a instalação do django:
 
  <code>pip install Django</code>
 
