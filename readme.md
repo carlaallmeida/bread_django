@@ -11,10 +11,10 @@
         
  <h1 align="left">Pré-requisitos</h1>
 
-<h3 align="left">Instalação do Python</h3> 
+<h2 align="left">Instalação do Python</h2> 
 
 ---
-<p>Para fazer a instalação do Python insira o código abaixo no seu terminal: 
+Para fazer a instalação do Python insira o código abaixo no seu terminal: 
 
 <code>pip install python</code>
 
@@ -24,7 +24,7 @@ Após a instalação use o comando abaixo para consultar a versão instalada do 
 
 <h2 align="left">Instalação dos Pacotes do PIP</h2>
 
-<p>Caso o PIP não esteja instalado você pode instalar inserindo o comando abaixo: </p>
+Caso o PIP não esteja instalado você pode instalar inserindo o comando abaixo: 
 
 <code>curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py<code>
 
