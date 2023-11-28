@@ -11,7 +11,7 @@
         
  <h1 align="left">Pré-requisitos</h1>
 
-<h1 align="left">Instalação do Python</h1> 
+<h2 align="left">Instalação do Python</h2> 
 
 Para fazer a instalação do Python insira o código abaixo no seu terminal: 
 
