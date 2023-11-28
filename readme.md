@@ -33,3 +33,11 @@ Após a instalação do Python e o do Pacote PIP use o comando abaixo para a ins
 <code>pip install django</code> 
 
 <code>pip install virtualenv</code>
+
+<h2 align="left">Ativação da VENV</h2>
+
+Após a instalação é necessário ativar a VENV para iniciar o projeto.  Em seguida foi criado uma pasta chamada setup. Dentro dela estão todos os configuração do django.
+
+<code>venv\Scripts\Activate</code>
+
+<code>django-admin startproject setup .</code>
