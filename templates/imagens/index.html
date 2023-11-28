@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href= "{% static 'style.css' %}">
+	<title>BreadHouse</title>
+</head>
+<body>
+	<header>
+		<nav>
+    		<section class="menu">
+      	       <li><a href="#Home">HOME</a></li>
+      	       <li><a href="#Empresa">SOBRE</a></li>
+      	       <li><a href="#Tipos">TIPOS</a></li>
+      	    </section>
+      	</nav>
+	</header>
+	<div id="compras">
+		<h4>Realize seu pedido</h4>
+		<br>
+		<button id="btn-compras"><a href="https://api.whatsapp.com/send?phone=55122000000&text=Ol%C3%A1%20Gostaria%20de%20realizar%20um%20pedido!%20">CLIQUE AQUI</a></button>	
+	</div>
+	<figure>
+		<img src="{% static 'Logo/Bread.png' %}">
+	</figure>
+	<h1>Receba no conforto da sua Casa !!!</h1>
+	<section class="conteudo-topo"></section>
+	<section class="conteudo" id="grid-conteudo"></section>
+	<a href="Home" id="Home"></a>
+	<a href="Empresa" id="Empresa"></a>
+	<figure>
+		<img class="galeria" src="{% static '/galeria/empresa.png' %}" alt="empresa">
+	</figure>
+	<br>
+	<a href="Tipos" id="Tipos" alt="Tipos de Pães"></a>
+	<br>	
+		<div class="grid">
+			
+			<div>
+				<figure>
+					<img class="galeria" src="{% static '/galeria/Vegano.png' %}" alt="Vegano">
+				</figure>
+			</div>
+
+			<div>
+				<figure>
+					<img class="galeria" src="{% static '/galeria/Integral.png' %}" alt="Integral">
+				</figure>
+			</div>
+
+			<div>
+				<figure>
+					<img class="galeria" src="{% static '/galeria/Natural.png' %}" alt="Natural">
+				</figure>
+			</div>
+
+	<br>
+	<footer>
+		<p>Fale Conosco!</p>
+		<br>
+		<p>WhatsApp: (12) 2000-0000</p>
+		<br>
+		<p>Desenvolvido por: BreadHouse LTDA</p>
+	</footer>
+
+</body>
+</html>
