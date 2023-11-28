@@ -21,48 +21,5 @@ Após a instalação use o comando abaixo para consultar a versão instalada do 
 
 <code>python –version</code></p>
 
-
-<h2 align="left">Instalação dos Pacotes do PIP</h2>
-
-Caso o PIP não esteja instalado você pode instalar inserindo o comando abaixo: 
-
-<code>curl:https://bootstrap.pypa.io/get-pip.py -o get-pip.py<code>
-
-
-<h1 align="left">Instalação do Django e VENV</h1>
-
-Após a instalação do python e do pacote PIP siga o comando abaixo  para fazer a instalação do django:
-
- <code>pip install Django</code>
-
-A  VEN é um ambiente virtual onde você pode administrar vários ambientes Python de forma separada. 
- 
-Para fazer a instalação da VENV use o comando abaixo : 
-
-<code>pip install virtualenv</code>
-
-<code>virtualenv --version</code></p>
-
-<h3 align="left">Iniciando no Django</h3>
-
----
-<p> Após a instalação é necessário ativar a venv para abrir o ambiente virtual. 
-
-Para ativar a VENV use o comando abaixo: 
-
-<code>venv\Scripts\Activate</code>
-
-Com a VENV ativada foi criada uma pasta chamada setup.
-
-Todos os  arquivos de  configurações do projeto django estão nessa pasta. 
- 
-<code>django-admin startproject setup .</code>
-
-Para rodar um programa no django digite no terminal da  sua ferramenta de edição o código o seguinte comando.
-
-obs: Para o desenvolvimento foi usado o vscode.
-
-<code>python manage.py runserver</code>
-
-</p>
+<h2 align="left">Instalação dos Pacotes PIP</h2>
 
